@@ -314,8 +314,10 @@ a:hover {
 
 .hero-content {
   position: relative;
-  z-index: 3;
   text-align: center;
+  z-index: 2;
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   animation: fadeInUp 1s ease-out;
 }
 
