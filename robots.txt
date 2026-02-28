@@ -1,0 +1,21 @@
+# Metomos Website - robots.txt
+# Search engine crawling instructions
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /*.log
+Disallow: /*.bak
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://metomos.com/sitemap.xml
